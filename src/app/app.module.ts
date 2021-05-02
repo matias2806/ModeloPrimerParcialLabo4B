@@ -9,6 +9,8 @@ import { TablaPeliculaComponent } from './components/tabla-pelicula/tabla-pelicu
 import { DetallePeliculaComponent } from './components/detalle-pelicula/detalle-pelicula.component';
 import { AltaPeliculaComponent } from './components/alta-pelicula/alta-pelicula.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { AltaActoresComponent } from './page/alta-actores/alta-actores.component';
+import { TablaPaisesComponent } from './components/tabla-paises/tabla-paises.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     TablaPeliculaComponent,
     DetallePeliculaComponent,
     AltaPeliculaComponent,
-    NavBarComponent
+    NavBarComponent,
+    AltaActoresComponent,
+    TablaPaisesComponent
   ],
   imports: [
     BrowserModule,
